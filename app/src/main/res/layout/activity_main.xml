@@ -9,17 +9,17 @@
     android:stretchMode="columnWidth">
 
     <LinearLayout
-        android:id="@+id/topLeft"
-        android:layout_width="300dp"
-        android:layout_height="500dp"
+        android:id="@+id/back1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_column="0"
         android:layout_row="0"
         android:background="@drawable/practice">
 
         <ImageView
             android:id="@+id/myimage1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_column="0"
             android:layout_row="0"
             android:layout_gravity="center"
@@ -28,17 +28,17 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/topRight"
-        android:layout_width="300dp"
-        android:layout_height="500dp"
+        android:id="@+id/back2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_column="1"
         android:layout_row="0"
         android:background="@drawable/practice">
 
         <ImageView
             android:id="@+id/myimage2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_column="0"
             android:layout_row="0"
             android:layout_gravity="center"
@@ -46,36 +46,40 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/bottomLeft"
-        android:layout_width="300dp"
-        android:layout_height="500dp"
+        android:id="@+id/back3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_column="0"
         android:layout_row="1"
         android:background="@drawable/practice">
 
         <ImageView
             android:id="@+id/myimage3"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="center"
             android:src="@drawable/shape"/>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/bottomRight"
-        android:layout_width="300dp"
-        android:layout_height="500dp"
+        android:id="@+id/back4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_column="1"
         android:layout_row="1"
         android:background="@drawable/practice">
 
         <ImageView
             android:id="@+id/myimage4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_column="0"
             android:layout_row="0"
             android:layout_gravity="center"
             android:src="@drawable/shape"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:id="back5"
+
 </GridLayout>
